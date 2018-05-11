@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>tech189's  Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#408DFF" />
+    <style>
+        body {
+            margin:  0px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .row, .col {
+            overflow: hidden;
+            position: absolute;
+        }
+        .row {
+            left: 0;
+            right: 0;
+        }
+        .col {
+            top: 0;
+            bottom: 0;
+        }
+        .scroll-x {
+            overflow-x: auto;
+        }
+        .scroll-y {
+            overflow-y: auto;
+        }
+        .header {
+            background: #408DFF;
+            color: #fff;
+            text-align: center;
+        }
+        .header.row {
+            height: 4em;
+            top: 0;
+        }
+        .body.row {
+            top: 4em;
+            bottom: 0em;
+            left: 1em;
+            right: 0em;
+            padding: 1em;
+        }
+        #textbox{
+            border: 1px solid #aaa;
+            border-radius: 4px; 
+            color: #000;
+            width: 400px;
+        }
+        .output{
+            border: 1px solid #aaa;
+            border-radius: 4px; 
+            color: #000;
+            /*
+            width: 500px;
+            height: 450px;
+            */
+        }
+    </style>
+    <script>
+    </script>
+</head>
+<body>
+    <div class="header row">
+        <h2>tech189's Website</h2>
+    </div>
+    
+    <div class="body row scroll-y">
+        <h3>My Projects</h3>
+
+        <h4>Python</h4>
+        <h5>A few projects written in Python</h5>
+        <ul>
+            <li><a href="bot.html">Danny Bot</a> - A chat bot that runs on the Discord platform (<a href="https://github.com/tech189/danny-bot">GitHub</a>)</li>
+            <li><a href="lloydos/">Lloydos</a> - An esoteric programming language written in Ancient Greek (<a href="https://github.com/tech189/Lloydos">GitHub</a>)</li>
+            <li><a href="perseus/">Perseus</a> - A very WIP scraper for Perseus (<a href="https://github.com/tech189/perseus">GitHub</a>)</li>
+        </ul>
+
+        <h4>Online Tools</h4>
+        <h5>Tools I have built on top of existing projects</h5>
+        <ul>
+            <li><a href="memrise/">Memrise Scraper</a> - A tool to scrape plain text lists from Memrise</li>
+        </ul>
+
+        <h4>Status Pages</h4>
+        <h5>Information pages about the status of things</h5>
+        <ul>
+            <li><a href="info.php">Rasbperry Pi Info</a> - Status of the Raspberry Pi 3B on which this webserver is running</li>
+            <li><a href="mc.php">MC Status</a> - Status of the MC server I sometimes run</li>
+        </ul>
+        
+        <h3>Other Miscellaneous Stuff</h3>
+        <h5>Useful material for Latin and Greek</h5>
+        <ul>
+            <li><a href="quizlet/">My Quizlet Lists</a> - A selection of Quizlet lists I have gathered over the years</li>
+        </ul>
+
+        <h3>Contact</h3>
+        <ul>
+            <li><a href="mailto:dlloyd189@gmail.com">Email</a></li>
+            <li><a href="https://github.com/tech189">GitHub</a></li>
+        </ul>       
+    </div>
+</body>
+</html>
