@@ -1,0 +1,52 @@
+body {
+    margin:  0px;
+    font-family: "-apple-system-body", 'Segoe UI', "Helvetica Neue", Tahoma, Geneva, Verdana, sans-serif;
+}
+.row, .col {
+    overflow: hidden;
+    position: absolute;
+}
+.row {
+    left: 0;
+    right: 0;
+}
+.col {
+    top: 0;
+    bottom: 0;
+}
+.scroll-x {
+    overflow-x: auto;
+}
+.scroll-y {
+    overflow-y: auto;
+}
+.header {
+    color: #fff;
+    text-align: center;
+}
+.header.row {
+    height: 4em;
+    top: 0;
+}
+.body.row {
+    top: 4em;
+    bottom: 0em;
+    left: 1em;
+    right: 0em;
+    padding: 1em;
+}
+#textbox{
+    border: 1px solid #aaa;
+    border-radius: 4px; 
+    color: #000;
+    width: 400px;
+}
+.output{
+    border: 1px solid #aaa;
+    border-radius: 4px; 
+    color: #000;
+    /*
+    width: 500px;
+    height: 450px;
+    */
+}

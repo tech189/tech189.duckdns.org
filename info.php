@@ -2,7 +2,7 @@
     <head>
         <meta http-equiv="refresh" content="10" />
         <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
-        <title>Raspberry Pi 3 Information</title>
+        <title>Raspberry Pi 3 Information - tech189's Website</title>
     </head>
     <body>
         <?php
@@ -65,7 +65,7 @@
         if($t == ""){
             $s = "[No data, the server is likely off]";
         };
-        echo("Players online the Tekkit server: $s");
+        echo("Players online the Minecraft server: $s");
         
         ?>
     </body>
